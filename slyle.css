@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Times, serif;
+}
+.container{
+    width: 1366px;
+}
+/* Main CSS Style */
+
+
+.all-sec {
+	padding: 50px;
+	background: #ddd;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.title h1 {
+	text-align: center;
+	padding: 20px;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+.all-data{
+    width: 33.33%;
+}
+
+.all-sec .data {
+	text-align: center;
+	padding: 5%;
+	border: 2px solid #f3f3f3;
+	margin: 5px;
+	background: #ecd7ae;
+}
+
+.data img {
+	width: 130px;
+	border-radius: 50%;
+}
+
+.data span {
+	color: #0064ff;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: left;
+	width: 100px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+.data .id{ 
+    text-align: center;
+}
+.data h1 {
+	text-align: left;
+	font-size: 16px;
+}
+
+
+/* Developer CSS Style */
+
+
+.deve-sec{}
+
+
+/* Student CSS Style */
+
+.student-data .data {
+	display: flex;
+	align-items: center;
+}
+
+.stud-about {
+	margin-left: 15px;
+}
+.stud-about .id {
+	text-align: left;
+}
+.student-data img {
+	width: 100px;
+}
+
+.student-data span {
+	color: #0064ff;
+	font-size: 15px;
+}
+
+/* Phone Book CSS Style */
+
+.phone-nub {
+	padding: 0 50px;
+}
+
+.phone-nub table {
+	width: 100%;
+	border: 5px solid #b76e6e;
+	border-radius: 10px;
+}
+
+.phone-nub th {
+	width: 20%;
+	background: #a9e2e8;
+	padding: 10px;
+}
+
+.sel-no {
+	width: 2% !important;
+}
+.phone-nub td {
+	text-align: center;
+}
+
+.phone-nub table tbody tr:nth-child(odd){
+    background: rgb(211, 212, 212);
+}
